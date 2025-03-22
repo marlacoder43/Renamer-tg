@@ -14,4 +14,4 @@ RUN apt-get update && apt-get install -y wget && apt-get clean
 RUN wget https://github.com/marlacoder43/Renamer-tg/blob/main/file-share.py
 
 # 7. Botni ishga tushiramiz
-CMD ["python", "file-share.py"]
+CMD ["python", "main.py"]
