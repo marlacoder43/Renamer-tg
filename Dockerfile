@@ -13,8 +13,5 @@ RUN apt-get update && apt-get install -y wget && apt-get clean
 # 5. GitHub-dan loyihani yuklab olamiz
 RUN wget https://github.com/marlacoder43/Renamer-tg/blob/main/file-share.py
 
-# 6. Ishchi katalogni loyihaga o'zgartiramiz
-WORKDIR /app/
-
 # 7. Botni ishga tushiramiz
 CMD ["python", "file-share.py"]
