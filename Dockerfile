@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir pyrogram tgcrypto
 RUN apt-get update && apt-get install -y git && apt-get clean
 
 # 5. GitHub-dan loyihani yuklab olamiz
-RUN git clone https://github.com/marlacoder43/telegram-echo-bot.git
+RUN git clone https://github.com/marlacoder43/Renamer-tg/blob/main/file-share.py
 
 # 6. Ishchi katalogni loyihaga o'zgartiramiz
 WORKDIR /app/telegram-echo-bot
